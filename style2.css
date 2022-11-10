@@ -27,3 +27,31 @@
 ul { 
     list-style: none; 
 }
+
+table, th, td {
+    color: #1f1f1f;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 20px;
+    border-top: 50px;
+    border: 1px solid #313131;
+    border-collapse: collapse;
+  }
+
+    #t01 tr:nth-child(even) {
+      background-color: rgb(187, 187, 187);
+    }
+
+    #t01 tr:nth-child(odd) {
+      background-color: rgb(219, 219, 219);
+    }
+    #t01 th {
+      color: white;
+      background-color: rgb(0, 0, 0);
+    }
+
+  #t01{
+    width: 100%;
+}
