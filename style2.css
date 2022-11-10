@@ -1,0 +1,24 @@
+.topnav {
+    display:flex;
+    justify-content:center;
+    position:relative;
+}
+.topnav .navbar{
+    gap:50px 50px;
+    display:flex;
+
+}
+
+.topnav .dropdown li{
+
+    position:relative;
+}
+.topnav .dropdown{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+}
+ul { 
+    list-style: none; 
+
+}

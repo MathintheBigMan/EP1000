@@ -34,6 +34,7 @@ h1,h2,h3{
 }
 .topnav a {
   font-size: 16px;
+  float:left;
   color: white;
   text-align:center;
   padding: 14px 16px;
@@ -42,6 +43,7 @@ h1,h2,h3{
 .dropdown {
   text-align:center; 
   display: inline;
+  float:left;
   overflow: hidden;
 }
 
