@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
     <head>
         <meta charset="utf-8" />
@@ -8,44 +7,44 @@
         <link rel="stylesheet" type="text/css" href="style.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     </head>
-
-    <body>
-        <!-- Top Hud Navigation Bar -->
-        <div class="topnav">
-            <a class="active" href="Mathin.html">Home</a>
-            <a href="#about">About</a>
-            <a href="#Timeline">Timeline</a>
-            <div class="dropdown">
-                <button class="dropbtn">
-                    Projects
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="#">Computer Aided Design</a>
-                    <a href="#">Arduino</a>
-                    <a href="#">Peehee</a>
-                </div>
+<body>
+    <!--NavBar-->
+    <div class ="topnav">
+        <ul class = "navbar">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#Timeline">Timeline</a></li>
+            <li id = "project"><a href="#Project">Project<i class="fa fa-caret-down" ></i></a>
+                <ul class ="dropdown">
+                    <li> <a href="#">Computer Aided Design</a></li>
+                    <li><a href="#">Arduino</a></li>
+                    <li><a href="#">Peehee</a></li>
+                </ul>
+            </li>
+            <li><a href="#FinalProject">Final Projects</a></li>
+        </ul>
+    </div>
+    <!--content-->
+    <div class = "content">
+        <div class="header">
+            <h1>Welcome to my website</h1>
+        </div>
+        <div class="body">
+            <h2>Perpose</h2>
+            <div class="textbox">
+                <p>Welcome to my website, this is where I will be documenting my journey through the Digital Fabrication and Prototyping Fundamentals Module (EP1000). There are 2 main sections to this website.
+                    The [Timeline] page is where I briefly log what I have achieved and learnt on a weekly basis.
+                    The projects tabs and its subsequent pages are where I go more in depth into the projects I have done during the module, separated by topic.</p>
             </div>
-
-            <a href="#FinalProject">Final Projects</a>
+            
+        </div>
+        <div class="body">
+            <h2>What is EP1000?</h2>
+            <div class="textbox">
+                <p>EP1000 is a module that aims to introduce us students to design thinking concepts, which we will use to design some functional prototypes to meet certain user requirements. Fundamental digital fabrication skills and technologies such as computer-aided design, 2D and 3D modeling, mechanical and electronic design and programming skills are developed through a range of hands-on real world activities. Project management, web and version control techniques, which are important for project development, will also be imparted to us students. We will be using a facility in school called the Fablab, which has the machines, such as laser cutters, 3D printers and cnc machines, for us to learn how to use.</p>
+            </div>
+            
         </div>
 
-        <!-- Main Menu Pg -->
-        <div id="content">
-            <div id="container">
-                <div id="header">
-                    <h1>Welcome to my website</h1>
-                </div>
-                <div id="main">
-                    <h2>Perpose</h2>
-                    <p>This website serves to documment my journey through my Digital Fabrication and Prototyping Fundamentals Module (EP1000).</p>
-                    <p>Within this website I will show my weekly progress, Projects that I have completed as well as the Final Project.</p>
-                </div>
-
-                <div id="footer">
-                    Copyright &copy; 2022 Team JH
-                </div>
-            </div>
-        </div>
-    </body>
-</html>
+    </div>
+</body>
