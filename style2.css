@@ -1,7 +1,11 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .topnav {
     display:flex;
     justify-content:center;
-    position:relative;
 }
 .topnav .navbar{
     gap:50px 50px;
@@ -10,15 +14,16 @@
 }
 
 .topnav .dropdown li{
-
     position:relative;
 }
 .topnav .dropdown{
-    display:flex;
-    flex-direction: column;
+    display:none;
     position: absolute;
+}
+#project:hover .dropdown{
+    display:block;
+    flex-direction: column;
 }
 ul { 
     list-style: none; 
-
 }
