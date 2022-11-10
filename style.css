@@ -1,0 +1,110 @@
+body{
+	background-color:#EEE;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+h1,h2,h3{
+	margin:0;
+}
+#container{
+	background-color: white;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	flex-shrink: 10;
+}
+
+#header{
+	background-color: #D60270;
+	color: white;
+	text-align: center;
+	padding:10px;
+}
+
+#content{
+	padding: 10px;
+	text-align: justify;
+}
+
+
+.topnav {
+	overflow: hidden;
+	text-align:center;
+	background-color: #391D3A;
+}
+.topnav a {
+  font-size: 16px;
+  color: white;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown {
+  text-align:center; 
+  display: inline;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  text-align:center; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+/*Top Hud Navigation color*/
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: grey;
+}
+/*Projects Drop Down*/
+.dropdown-content {
+  display: none;
+  text-align: center;
+  border:#391D3A;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#nav ul{
+	
+	list-style-type: none;
+	padding: 0;
+	
+}
+#main{
+	width:100%;
+	padding:10px;
+	text-align:center;
+}
+
+#footer{
+	clear:both;
+	padding: 5px;
+	background-color: #999999;
+	color:white;
+	text-align: right;
+}
