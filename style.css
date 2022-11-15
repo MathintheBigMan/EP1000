@@ -70,16 +70,17 @@ table, th, td {
 #t01{
   width: 100%;
 }
-#cards{
+#header{
   display:flex;
   flex-direction: column;
-  align-content:center;
 }
 /*Head Title Arrangement*/
-#cards .headtitle{
-  display:flex;
+#header .headtop{
+  display: flex;
   flex-direction: column;
-  align-content:center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 /*Card Arrangement*/
 .title {
@@ -90,7 +91,7 @@ table, th, td {
 
 .title-note {
   font-size: 80%;
-  color: #999;
+  color: rgb(153, 153, 153);
 }
 
 .flex-title {
