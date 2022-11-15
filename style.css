@@ -70,3 +70,37 @@ table, th, td {
 #t01{
   width: 100%;
 }
+#cards{
+  display:flex;
+  flex-direction: column;
+  align-content:center;
+}
+/*Head Title Arrangement*/
+#cards .headtitle{
+  display:flex;
+  flex-direction: column;
+  align-content:center;
+}
+/*Card Arrangement*/
+.title {
+  border-bottom: 1px solid #ccc;
+  max-width: 90%;
+  margin: 40px auto;
+}
+
+.title-note {
+  font-size: 80%;
+  color: #999;
+}
+
+.flex-title {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+.flex-title > span {
+  white-space: nowrap;
+}
+.flex-title .title-main {
+  flex-grow: 1;
+}
