@@ -34,7 +34,7 @@
   display:block;
   flex-direction: column;
   background-color: pink;
-  color: black;
+  color: rgb(255, 5, 159);
   border-style: solid;
   padding: 0 10px;
   margin-top: 20px;
@@ -73,6 +73,7 @@ table, th, td {
 #header{
   display:flex;
   flex-direction: column;
+  align-items:center;
 }
 /*Head Title Arrangement*/
 #header .headtop{
@@ -81,19 +82,51 @@ table, th, td {
   align-content: center;
   justify-content: center;
   align-items: center;
+  margin:10px auto;
 }
-/*Card Arrangement*/
+.lessonhead{
+  border-radius: 20px;
+  background: #914273;
+  padding: 0px 20px;
+  /*margin: 10px auto;*/
+  width: 90%;
+}
+/*Card Arrangement for Timeline*/
+.lessonhead .intro{
+  display: flex;
+  margin: 10px auto;
+}
+.lessonhead .work{
+  margin: 10px auto;
+  padding: 0px 10px;
+}
+/*CSS for the links*/
+
+.lessonhead .work .links:visited{
+  text-decoration:none;
+  color: rgb(25, 0, 255);
+  background-color: transparent;
+}
+.lessonhead .work .links:hover{
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.lessonhead .work .links:active{
+  color: rgb(0, 255, 55);
+  background-color: transparent;
+  text-decoration: underline;
+}
+/*The line thing*/
 .title {
   border-bottom: 1px solid #ccc;
-  max-width: 90%;
-  margin: 40px auto;
+  margin: 10px auto;
 }
-
 .title-note {
   font-size: 80%;
-  color: rgb(153, 153, 153);
+  color: rgb(236, 171, 225);
 }
-
 .flex-title {
   display: flex;
   align-items: flex-end;
@@ -104,4 +137,10 @@ table, th, td {
 }
 .flex-title .title-main {
   flex-grow: 1;
+}
+/*line*/
+.vertical {
+  border-left: 6px solid black;
+  height: 25px;
+  left: 50%;
 }
