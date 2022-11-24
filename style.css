@@ -88,7 +88,7 @@ table, th, td {
   border-radius: 20px;
   background: #914273;
   padding: 0px 20px;
-  /*margin: 10px auto;*/
+  margin: 10px auto;
   width: 90%;
 }
 /*Card Arrangement for Timeline*/
@@ -143,4 +143,5 @@ table, th, td {
   border-left: 6px solid black;
   height: 25px;
   left: 50%;
+  /*use this in html: <div class= "vertical"></div>*/
 }
