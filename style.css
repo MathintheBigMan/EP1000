@@ -11,6 +11,13 @@ body {
   justify-content: space-evenly;
   background-color: pink;
 }
+/* Logo */
+#logo {
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+  height: 110px;
+}
 
 .navbar{
   display: flex;
