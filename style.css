@@ -258,3 +258,9 @@ iframe {
 .toolcontainer h2 {
   padding: 10px 0;
 }
+/*video*/
+.video {
+  display:flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
