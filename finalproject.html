@@ -41,8 +41,9 @@
             </h3>
             <ul class = "skip">
                 <li><a href = #Idea>Ideation</a></li>
+                <li><a href = #sket>Sketching</a></li>
                 <li><a href = #wiri>Wiring</a></li>
-                <li><a href = #>Basic CSS</a></li>
+                <li><a href = #code>Coding</a></li>
             </ul>
         </div>
         <div class = "section">
@@ -56,13 +57,70 @@
             </p1>
         </div>
         <div class = "section">
-            <h2 class = "sectionhead" id ="Idea">Sketch</h2>
-            <p1>.
+            <h2 class = "sectionhead" id ="sket">Sketch</h2>
+            <p1> For the case I went for a simple boxey Gameboy like design(Box 2)
+                as I feel that it was aesthetically pleasing and fit the already given
+                stand that came with the arduino.
             </p1>
+            <figure>
+                <div class ="grppic">
+                <div class = "pic">
+                    <img src="image\Final Project Idea.png" alt ="Final Project Sketch" style = "width:100%">
+                    <figcaption>Initial Final Project sketch</figcaption>
+                </div>
+                <div class = "pic">
+                    <img src="image\Final Prject Casing.png" alt ="Final Prject Casing" style = "width:100%">
+                    <figcaption>Final Project case sketch</figcaption>
+                </div>
+                </div>
+            </figure>
         </div>
         <div class = "section">
             <h2 class = "sectionhead" id ="wiri">Wiring</h2>
             <p1>.
+            </p1>
+        </div>
+        <div class = "section">
+            <h2 class = "sectionhead" id ="code">Coding</h2>
+            <p1>For this section I will be explaining the important parts of the code
+                that allow the logic of this game to work.<br>
+                To make the code it is improtant to know the basic premis of the game.
+                It is played by two players (usually on a piece of paper) and the play area
+                consist of 9 boxes.
+            </p1>
+            <figure>
+                <div class ="grppic">
+                <div class = "pic">
+                    <img src="image\Tic-Tac-Toe-Board.jpg" alt ="Tic-Tac-Toe-Board" style = "width:100%">
+                    <figcaption>Tic-Tac-Toe-Board</figcaption>
+                </div>
+                </div>
+            </figure>
+            <p1><br>Within those 9 boxes each player will take turns to place down
+                either a cross or a circle and the game ends when a line is formed by either player.
+            </p1>
+            <figure>
+                <div class ="grppic">
+                <div class = "pic">
+                    <img src="image\Tic-tac-toe-gameplay.png" alt ="Tic-Tac-Toe-gameplay" style = "width:100%">
+                    <figcaption>Tic Tac Toe example</figcaption>
+                </div>
+                </div>
+            </figure>
+            <p1><br>Now that we know how the game works, it's time to 
+                translate it into logic of code. To emulate the 9 box play area I used a 3x3 matrix to 
+                give the code a base and outline of the playarea. The zeros in the matrix represents an empty space.
+            </p1>
+            <figure>
+                <div class ="grppic">
+                <div class = "pic">
+                    <img src="image\Final Prject Coding(2).png" alt ="3x3 matrix" style = "width:100%">
+                    <figcaption>3 x 3 matrix</figcaption>
+                </div>
+                </div>
+            </figure>
+            <p1><br>Next we set an input funtion to let players to 
+                select the box the would like to put thier "piece".
             </p1>
         </div>
     </div>
