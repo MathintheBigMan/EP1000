@@ -306,13 +306,45 @@
         </div>
         <div class = "section">
             <h2 class = "sectionhead" id ="prob">Problems and Solutions</h2>
-            <p1>This is a project had quite a few problems.
+            <p1>This is a project had quite a few problems. The first being the button layout and how that affected the 
+                input signal going into the arduino. Below is the original button configuration made so that the arduino 
+                knows that a buttton has been pressed, as seen it is using a resistor to limit the currunt to the input i/o.
             </p1>
             <figure>
                 <div class ="grppic">
                 <div class = "pic">
-                    <img src="image\Final Project Wiring(1).png" alt ="Final Project Wiring" style = "width:100%">
-                    <figcaption>Final Project wiring</figcaption>
+                    <img src="image\Final Project Problem(1).jpg" alt ="Button Config" style = "width:100%">
+                    <figcaption>old Button Config</figcaption>
+                </div>
+                </div>
+            </figure>
+            <p1>After setting up a simple program to test out the input, I found that there were mis-inputs recieved 
+                by the arduino causing it to go from 0 to 1 randomly. This input was seldom however it can cause the
+                game to interpret the players action wrongly so it HAD to be fixed.
+            </p1>
+            <figure>
+                <div class ="grppic">
+                <div class = "pic">
+                    <img src="image\Final Project Problem(2).jpg" alt ="Button Test Code" style = "width:100%">
+                    <figcaption>Test Code</figcaption>
+                </div>
+                </div>
+            </figure>
+            <p1>Facing this problem I consulted my Senior and he said that the Arduino that I was using (Arduino UNO)
+                had it's own internal resistor for buttons and a different funtion to be used for it. He also
+                linked this <a href ="https://docs.arduino.cc/tutorials/generic/digital-input-pullup" class="links">[website]</a> for me to read into.
+                Then I changed the code to include the Digital Input Pull Up Resistor as well as the wiring which was just connecting each end to GND and Input interface.
+                <br><br>
+            </p1>
+            <figure>
+                <div class ="grppic">
+                <div class = "pic">
+                    <img src="image\btnproFixed(wiring).jpg" alt ="Button Wiring" style = "width:100%">
+                    <figcaption>New Button Config</figcaption>
+                </div>
+                <div class = "pic">
+                    <img src="image\btnproFixed.jpg" alt ="New Btn Code" style = "width:100%">
+                    <figcaption>New Button code</figcaption>
                 </div>
                 </div>
             </figure>
@@ -320,7 +352,7 @@
         <div class = "section">
             <h2 class = "sectionhead" id ="slid">Project Slide and Video</h2>
             <p1>
-                This is the slide for the Final Project Presentation.<br><br>
+                This is the slide for the Final Project Presentation.<br>
             </p1>
             <figure>
                 <div class ="grppic">
